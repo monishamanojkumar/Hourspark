@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="49.736">
+    <testcase classname="Title of your feature" name="HourSpark Task" time="19.82">
+        <system-out><![CDATA[Given open url..............................................................passed
+And Enter username..........................................................passed
+And Enter Password..........................................................passed
+And Click submitButton......................................................passed
+Given Click Bizgurd Task....................................................passed
+And Click CrateTask.........................................................passed
+And Enter TASK title String "task21"........................................passed
+And Select The Priority.....................................................passed
+And Select Department.......................................................passed
+And Enter The Description...................................................passed
+And Upload the document.....................................................passed
+And Click the createtaskButton..............................................passed
+And Open task...............................................................passed
+And Click Task detail.......................................................passed
+And Click CloseTask.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Title of your feature" name="create Project" time="24.843">
+        <failure message="element click intercepted: Element is not clickable at point (1154, 912)&#10;  (Session info: chrome=126.0.6478.56)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-6610ANH', ip: '192.168.1.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 70c3c392a925c46e54cbd98a755372a7" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given open url..............................................................passed
+And Enter username..........................................................passed
+And Enter Password..........................................................passed
+And Click submitButton......................................................passed
+Given We clicked the Project enquiryTAB.....................................passed
+And Click InitiateProject...................................................passed
+And Enter Project Title.....................................................passed
+And Select the pPriority....................................................passed
+And Select the Category.....................................................passed
+And Select the Budget range.................................................passed
+And choose Start Date.......................................................passed
+And choose Ending date......................................................passed
+And Enter Description.......................................................passed
+And Upload Document.........................................................passed
+And Click SubmitButton......................................................failed
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1154, 912)
+  (Session info: chrome=126.0.6478.56)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-6610ANH', ip: '192.168.1.30', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.56, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70c3c392a925c46e54cbd98a755372a7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at stepdefinition.Stepbizgurd.click_submit_button(Stepbizgurd.java:183)
+	at ✽.Click SubmitButton(file:///C:/Users/Admin/eclipse-workspace/bets/src/test/java/featurefile/Loginfeature.feature:36)
+]]></failure>
+    </testcase>
+    <testcase classname="Title of your feature" name="StrategyHub Tab" time="4.702">
+        <system-out><![CDATA[Given open url..............................................................passed
+And Enter username..........................................................passed
+And Enter Password..........................................................passed
+And Click submitButton......................................................passed
+Given Cick strategy hub.....................................................passed
+And Click Taskdetails.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
